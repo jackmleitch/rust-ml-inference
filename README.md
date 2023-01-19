@@ -7,4 +7,4 @@ To use the tool `cd` into the 'rust_wiki_summarization' directory and run `cargo
 ```rs
 cargo run -- -p "page 1" -p "page 2" ... -p "page n"
 ```
-Note you do not have to run `cargo build` and can just run `run` directly and it will still build the binaries. The nitial code for this section was taken and adapted from Noah Gift's [rust mlops template](https://github.com/noahgift/rust-mlops-template).
+For example, `cargo run -- -p rust -p python -p "Graydon Hoare"` return summaries return summaries for rust, python, and Graydon Hoare (the creator of rust!). Note you do not have to run `cargo build` and can just run `run` directly and it will still build the binaries. The nitial code for this section was taken and adapted from Noah Gift's [rust mlops template](https://github.com/noahgift/rust-mlops-template).
